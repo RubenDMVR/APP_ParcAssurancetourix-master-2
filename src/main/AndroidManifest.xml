@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.applixmobilix.parcassurancetourix.application_parcassurancetourix">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main3ActivityAcceuil" />
+        <activity android:name=".Main4ActivityAttraction" />
+        <activity android:name=".Main5ActivityRestau" />
+        <activity android:name=".Main6ActivityPlan" />
+        <activity android:name=".Main7ActivityConnexion" />
+        <activity android:name=".Main8ActivityForte" />
+        <activity android:name=".Main9ActivityFamille" />
+        <activity android:name=".Main10ActivityPetit" />
+        <activity android:name=".MainActivityMenuLac" />
+        <activity android:name=".MainActivityMenuMarionnette" />
+        <activity android:name=".MainActivityMenuplaza" />
+        <activity android:name=".MainActivityMenuPolynesie" />
+        <activity android:name=".MainActivityMenuTaverne" />
+        <activity android:name=".MainActivityMenuGaulois" />
+        <activity android:name=".Index" />
+        <activity android:name=".MesParcours"></activity>
+    </application>
+
+</manifest>
